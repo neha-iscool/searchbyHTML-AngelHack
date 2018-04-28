@@ -171,7 +171,7 @@ var y = function (a) {
     };
 
 var A = /(chrome|file|http?:\/\/chrome\.google\.com\/extenions)/,
-    B = /^chrome-extension:\/\/[a-z]+\/popp\.html$/,
+    B = /^chrome-extension:\/\/[a-z]+\/popup\.html$/,
     x = function (a) {
         var b = new p(a);
         if (b.parseError) a = document.getElementById("sp_main_container"), a || (a = document.createElement("div"), a.id = "sp_main_container", a.className = "SP_MainContainer"), a.appendChild(r()), b = document.createElement("div"), b.innerHTML = chrome.i18n.getMessage("sp_error"), b.className = "SP_Message", a.appendChild(b), document.body.appendChild(a);
