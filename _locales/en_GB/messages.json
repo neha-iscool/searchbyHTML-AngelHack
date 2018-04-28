@@ -1,18 +1,18 @@
 {
    "locale": {
-      "message": "en"
+      "message": "en-GB"
    },
    "sp_chrome_https_case_text": {
-      "message": "This extension can not make suggestions from pages like this which have secure content (e.g., http\u003Cb>s\u003C/b>://). See you back on the public web!"
+      "message": "This extension can not make suggestions from pages like this which have secure content (e.g. http\u003Cb>s\u003C/b>://). See you back on the public web!"
    },
    "sp_chrome_special_case_text": {
-      "message": "This extension works best on homepages or the main page of most websites.\u003Cp>Try the extension on a website you already love&mdash;test drive it and see the page suggestions on something you know."
+      "message": "This extension works best on home pages or the main page of most websites.\u003Cp>Try the extension on a website you already love&mdash;test drive it and see the page suggestions on something you know."
    },
    "sp_default_title": {
       "message": "See Google Similar Pages"
    },
    "sp_description": {
-      "message": "Discover webpages similar to the page you're currently browsing."
+      "message": "Discover web pages similar to the page you're currently browsing."
    },
    "sp_domain_change_message": {
       "message": " To change your local domain to www.google.com, \u003Ca id='over' href='#'>click here\u003C/a>."
@@ -21,7 +21,7 @@
       "message": "www.google.com has been saved as your local domain for retrieving similar pages."
    },
    "sp_domain_message": {
-      "message": "The extension will contact $1 to retrieve the list of similar pages. ",
+      "message": "The extension will contact $1 to retrieve the list of similar pages.",
       "placeholders": {
          "1": {
             "content": "$1"
@@ -81,7 +81,7 @@
       "message": "Uninstall"
    },
    "sp_options_uninstall_message": {
-      "message": "To uninstall Google Similar Pages, use Chrome's Tools &gt; Extensions menu option, and click on the Uninstall link for the Google Similar Pages  extension."
+      "message": "To uninstall Google Similar Pages, use Chrome's Tools &gt; Extensions menu option, and click on the Uninstall link for the Google Similar Pages extension."
    },
    "sp_preview_not_available": {
       "message": "Preview\u003Cbr>not available"
@@ -96,10 +96,10 @@
       "message": " "
    },
    "sp_title": {
-      "message": "Unpublished on the Store."
+      "message": "Google Similar Pages"
    },
    "sp_tld_special_case_text": {
-      "message": "The extension is currently not available for your country/region. Please check back soon."
+      "message": "The extension is currently not available for your country/region. Please check here again soon."
    },
    "sp_zero_results": {
       "message": "No similar pages found."

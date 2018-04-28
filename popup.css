@@ -1,11 +1,12 @@
+/* Top-level containers */
 body {
   margin: 0;
-  background-color: #b9df51;
+  background-color: #f1f1f1;
   height: 100%;
 }
 .SP_Hide {display: none}
 .SP_MainContainer, .SP_ZeroResultsContainer, .SP_SpecialCaseContainer {
-  font-family: Helvetica;
+  font-family:sans-serif;
   font-size: 8pt;
 }
 .SP_MainContainer, .SP_SpecialCaseContainer {
@@ -21,6 +22,7 @@ body {
 	left: 0;
 	z-index: 20;
 }
+
 ::-webkit-scrollbar {
 	width: 10px;
 	height: 10px;
@@ -32,6 +34,7 @@ body {
 ::-webkit-scrollbar-track:hover {
     background-color: rgba(0,0,0,0.1);
 }
+
 ::-webkit-scrollbar-thumb {
     border-radius: 0px;
     background-color: rgba(0,0,0,0.25);
