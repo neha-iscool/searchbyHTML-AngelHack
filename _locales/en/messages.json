@@ -51,7 +51,8 @@
       "message": ""
    },
    "sp_options_intro": {
-      "message": "Search by Webpage allows you to quickly preview and explore other pages that are similar to the one you are browsing --  on the fly! It can be used in "
+
+      "message": "Search by Webpage allows you to quickly preview and explore other pages that are similar to the one you are browsing --  on the fly!"
    },
    "sp_options_legal": {
       "message": "It uses Google Seach Feautures in a Effective Way.",
@@ -75,14 +76,6 @@
          "1": {
             "content": "$1"
          }
-      }
-   },
-   "sp_options_developers_policy":{
-     "message":"\u003ca href='https://developers.google.com/'> Google Developers\u003c/a>",
-     "placeholders": {
-        "1": {
-           "content": "$1"
-        }
       }
    },
    "sp_options_uninstall": {

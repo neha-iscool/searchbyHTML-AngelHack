@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     d("options_copy");
     d("options_about_google", chrome.i18n.getMessage("locale"));
     d("options_privacy_policy", chrome.i18n.getMessage("locale"));
-    d("options_developers_policy", chrome.i18n.getMessage("locale"));
     d("options_tos", chrome.i18n.getMessage("locale"));
     e()
 });
+
