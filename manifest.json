@@ -1,0 +1,36 @@
+{
+"background": {
+     "page": "background.html",
+     "scripts":["backgroud_main.js"]
+  },
+  "browser_action": {
+     "default_icon": "images/sp-19.png",
+     "default_popup": "popup.html",
+     "default_title": "Searchify"
+  },
+  "content_scripts": [ {
+     "all_frames": false,
+     "css": [ "popup.css", "options.css" ],
+     "js": [ "backgroud_main.js", "options_main.js", "popup_main.js" ],
+     "matches": [ "<all_urls>" ],
+     "run_at": "document_start"
+  } ],
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "description": "!",
+
+  "icons": {
+     "128": "images/sp-128.png",
+     "19": "images/sp-19.png",
+     "48": "images/sp-48.png",
+     "32":"images/sp-32.png"
+  },
+  
+  "manifest_version": 2,
+  "name": "Searchify from chrome",
+  "optional_permissions": [ "clipboardRead" ],
+  "permissions": [ "<all_urls>", "tabs", "notifications", "cookies", "system.cpu", "clipboardWrite", "storage" ],
+  
+  "version": "1.0",
+  "description":"Just experimenting the searchify"
+  "web_accessible_resources": [  ]
+}
