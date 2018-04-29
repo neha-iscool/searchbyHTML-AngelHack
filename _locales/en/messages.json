@@ -37,7 +37,7 @@
       }
    },
    "sp_options_about_google": {
-      "message": "\u003Ca href='http://www.google.com/intl/$1/about.html'>About Google\u003C/a>",
+      "message": "\u003Ca href='http://www.google.com/intl/$1/about.html'>\u003C/a>",
       "placeholders": {
          "1": {
             "content": "$1"
@@ -45,7 +45,7 @@
       }
    },
    "sp_options_copy": {
-      "message": "&copy;2010 Google"
+      "message": ""
    },
    "sp_options_feedback": {
       "message": ""
@@ -70,7 +70,7 @@
       }
    },
    "sp_options_tos": {
-      "message": "\u003Ca href='http://chrome.google.com/extensions/intl/$1/gallery_tos.html'>Terms of Service\u003C/a>",
+      "message": "\u003Ca href='http://chrome.google.com/extensions/intl/$1/gallery_tos.html'>",
       "placeholders": {
          "1": {
             "content": "$1"
