@@ -45,3 +45,4 @@ document.addEventListener("DOMContentLoaded", function () {
     d("options_tos", chrome.i18n.getMessage("locale"));
     e()
 });
+
